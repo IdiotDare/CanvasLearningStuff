@@ -14,5 +14,5 @@ canvas.height = window.innerHeight;
 var c = canvas.getContext('2d');
 
 //first function, fillRect(), takes 4 arguments. x value, y value, width, heigh. x and y determine where the rectangle will be, blah bkh blah. Coodinates are relative to the top left of the screen. 
-c.fillRect(100, 100, 100px, 100px);
+c.fillRect(100, 100, 100, 100);
 //you can create multiple boxes.
