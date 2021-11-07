@@ -4,3 +4,5 @@ console.log("help");
 var canvas = document.querySelector('canvas');
 //now to alter the width of the canvas, select canvas.width, and set it to the window.innerWidth(self explanatory)
 canvas.width = window.innerWidth; //makes canvas expand to full width, excluding the margin
+canvas.height = window.innerHeight;
+//about the lil space left, well, some elements have styles applied by default
